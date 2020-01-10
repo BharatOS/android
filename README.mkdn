@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the Bharat OS trees, use a command like this:
 ```
-repo init -u git://github.com/BharatOS/android.git -b lineage-17.0
+repo init -u git://github.com/BharatOS/android.git -b ten
 ```
 Then to sync up:
 ```
@@ -22,4 +22,4 @@ commands in terminal
 
 ```source build/envsetup.sh lunch 
 bos_<devicecodename>-userdebug 
-make bacon ``` 
+make bacon  
