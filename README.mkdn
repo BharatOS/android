@@ -14,12 +14,12 @@ repo init -u git://github.com/BharatOS/android.git -b lineage-17.0
 Then to sync up:
 ```
 repo sync -c -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
-
+```
  To building:
- ==================== 
+
 From root directory of Project, perform following 
 commands in terminal 
 
-```bash source build/envsetup.sh lunch 
-bos_<devicecodename>-userdebug make bacon ``` 
------------------------------------------------------------------------------
+```source build/envsetup.sh lunch 
+bos_<devicecodename>-userdebug 
+make bacon ``` 
